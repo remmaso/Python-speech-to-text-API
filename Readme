@@ -1,0 +1,43 @@
+## This file guides you properly
+
+setup the virtual env
+
+## On Windows
+
+Type python -m venv venv
+
+## On Mac
+
+python3 -m venv venv
+
+# set the Source Activate
+
+# Win
+
+source venv/scripts/activate
+
+# Mac
+
+source venv/bin/activate
+
+select the Interprter
+
+# Win
+
+ctrl + shift + p type Python, and choose Select Interpreter
+
+# Mac
+
+cmd + shift + P , type Python, and choose Select Interpreter
+
+# Install some dependencies
+
+pip install pyaudio
+
+pip install speech recognition
+
+# create a file
+
+touch main.py
+
+code main.py
